@@ -1,0 +1,143 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: url('https://www.mastercard.com/news/media/cdqghvvc/magnuscarlsen_image2_1920x1274.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(245, 243, 243);
+}
+
+.navbar {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    padding: 19px;
+}
+
+.navbar nav {
+    text-align: right; 
+}
+
+.navbar a {
+    color: #ebdeded0;
+    text-decoration: rgb(201, 231, 192);
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.navbar a:hover {
+
+    transition: all .8s linear ;
+    transform: scale(1.4) ;
+    text-decoration: underline;
+    color: #cc5353;
+}
+
+.hero-text {
+    text-align: right;
+    padding-right: 100px;
+    padding-bottom: 190px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    background-color: rgba(219, 233, 226, 0.9);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    color: #333;
+}
+
+.container p {
+    color: #555;
+}
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5dcdc;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+.centerdiv{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerdiv a{
+    height: 100px;
+    width: 100px;
+    background-color:#f5f6fa ;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 111px;
+    box-shadow : 4px 4px 4px 2px #aaafc4;
+}
+a i{
+    transition: all .4s linear ;
+}
+a:hover i{
+    transform: scale(1.4) ;
+}
+.fa-x-twitter{
+    color: black;
+}
+.fa-instagram{
+    color: #d741aa;
+}
+
+.fa-youtube{
+    color: #e84118;
+}
+
